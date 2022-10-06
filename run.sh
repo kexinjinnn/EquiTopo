@@ -5,10 +5,8 @@
 # static Exp.:
 BLUEFOG_OPS_ON_CPU=1 bfrun -np 17 python train.py --topology exp --dataset mnist --atc-style --disable-dynamic-topology
 
-
 # O.-P. Exp.:
 BLUEFOG_OPS_ON_CPU=1 bfrun -np 17 python train.py --topology exp --dataset mnist --atc-style 
-
 
 # ring:
 BLUEFOG_OPS_ON_CPU=1 bfrun -np 17 python train.py --topology ring --dataset mnist --atc-style --disable-dynamic-topology
