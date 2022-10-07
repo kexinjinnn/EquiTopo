@@ -1,8 +1,8 @@
 # Communication-Efficient Topologies for Decentralized Learning with $\mathcal{O}(1)$ Consensus Rate 
 
 This code repository is for the paper
-**Communication-Efficient Topologies for Decentralized Learning with $\mathcal{O}(1)$ Consensus Rate** to
-be appeared in NeurIPS 2022. 
+**Communication-Efficient Topologies for Decentralized Learning with $\mathcal{O}(1)$ Consensus Rate** which will 
+appear in NeurIPS 2022. 
 
 ## Setup the environment
 
@@ -20,7 +20,7 @@ You can also use the Bluefog
 
 ## Train a model with EquiTopo
 
-We highly recommend downloading all data before training and putting them in a local folder. The following code is to run MNIST experiment with 17 decentralized network nodes using UEquiStatic (one-peer EquiTopo on a undirected graph) with M=4.
+We highly recommend downloading all data before training and putting them in a local folder. The following code is to run MNIST experiment with 17 computing nodes using UEquiStatic (one-peer EquiTopo on a undirected graph) with M=4.
 
 ```bash
 $ BLUEFOG_OPS_ON_CPU=1 bfrun -np 17 python train.py --topology UEquiStatic --M 4 --dataset mnist --atc-style --disable-dynamic-topology
